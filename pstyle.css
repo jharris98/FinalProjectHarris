@@ -1,0 +1,199 @@
+*{
+    margin: 0;
+}
+
+
+.menuIcon{
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: blue;
+    height: 100px;
+    width: 100px;
+}
+
+footer{
+display: flex;
+    justify-content: space-around;
+    position: fixed;
+    bottom: 0;
+    height: 40px;
+    width: 100%;
+
+}
+.footerblock{
+
+}
+nav{
+    width: 100%;
+    height: 100px;
+    background-color: #fafdf6;
+    position: fixed;
+    display: flex;
+    flex-flow: row-reverse;
+    z-index: 99;
+}
+
+.menuitem{
+    box-sizing: border-box;
+    width: 80px;
+    height: 100px;
+
+}
+
+.menuwrap{
+    display: flex;
+    align-content: space-between;
+}
+
+img{
+    width: 100px;
+    height: 100px;
+}
+
+.menubox{
+    padding-top: 35px;
+    margin: 0 20px;
+    z-index: 100;
+}
+
+.bigholder{
+    width: 100%;
+    position: absolute;
+    height: 700px;
+    top: 100px;
+    display: flex;
+    justify-content: space-between;
+    flex-flow: wrap;
+}
+
+.titleintrowrap{
+    width: 100%;
+    height: 65px;
+    background-color: dimgrey;
+    box-sizing: border-box;
+    position: absolute;
+    top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.titleintro{
+    font-size: larger;
+}
+.contactblock{
+    position: absolute;
+    top: 165px;
+    box-sizing: border-box;
+    border: 2px black solid;
+    height: 200px;
+    width: 100%;
+    display: flex;
+    overflow-wrap: normal;
+
+}
+.profiledesc{
+    padding: 8px 4px;
+}
+.title{
+    padding-left: 8px;
+}
+
+#profile{
+
+    height: 195px;
+    width: 145px;
+
+}
+#aboutbodywrapper{
+    position: absolute;
+    top: 165px;
+    display: flex;
+    align-content: space-around;
+
+}
+.paragraphwrapper{
+
+    padding: 5px;
+    display: flex;
+    flex-flow: column;
+
+}
+
+#aboutpicwrapper{
+    padding: 5px;
+    display: flex;
+    flex-flow: column;
+
+}
+
+.abouttexbox{
+    box-sizing: inherit;
+    height: 175px;
+    width: 200px;
+    border: 4px yellow solid;
+}
+.pic{
+    box-sizing: border-box;
+    height: 175px;
+    width: 200px;
+    border: 4px black solid
+}
+
+.productpicholder{
+    width: 100%;
+    height: 300px;
+    position: absolute;
+}
+
+.textwrapper{
+    padding: 20px;
+    position: absolute;
+    background-color: rgba(0,0,0,0.8);
+    color: yellow;
+
+}
+.abtimg{
+    float: left;
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+#productswrap{
+    position: absolute;
+    margin-top: 175px;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+
+
+}
+
+.Abouttextwrap{
+    box-sizing: border-box;
+    position: absolute;
+    top: 165px;
+    display: flex;
+    flex-flow: column-reverse;
+    width: 100%;
+    height: 100%;
+    flex-wrap: wrap;
+
+}
+.productbox {
+    background-color: black;
+    border: 1px #333 solid;
+    padding:5px;
+    width:200px;
+    display: block;
+}
+.description {
+    display:none;
+    position:absolute;
+    border:1px solid #000;
+    width:400px;
+    height:400px;
+}
